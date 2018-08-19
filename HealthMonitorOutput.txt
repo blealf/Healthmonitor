@@ -1,0 +1,46 @@
+****************           **
+******************       **
+**  HEALTH    ******   **
+**  MONITOR   ********
+**  PRINTING  ************
+**            ************
+***********************************
+***********************************
+ArrayList patient1: HealthMonitor:[Blood pressure: 120/90mmHG Condition: Blood pressure is still within range. Congrats!
+Temperature: 45.0Celsius Condition: Temperature is too high
+Heart Beat Rate: 40/minute Condition: Heart Beat rate is too low!!!!]
+
+ArrayList patient2: HealthMonitor:[Blood pressure: 121/98mmHG Condition: Blood pressure is TOO HIGH!!!!
+Temperature: 37.7Celsius Condition: Temperature is too high
+Heart Beat Rate: 100/minute Condition: !!!On the  High edge!!!]
+
+ArrayList patient3: HealthMonitor:[Blood pressure: 141/70mmHG Condition: Blood pressure is TOO HIGH!!!!
+Temperature: 36.0Celsius Condition: Temperature is too low
+Heart Beat Rate: 75/minute Condition: Heart Beat rate is okay. Bon!]
+
+ArrayList patient4: HealthMonitor:[Blood pressure: 120/84mmHG Condition: Blood pressure is still within range. Congrats!
+Temperature: 37.9Celsius Condition: Temperature is too high
+Heart Beat Rate: 35/minute Condition: Heart Beat rate is too low!!!!]
+
+ArrayList patient5: HealthMonitor:[Blood pressure: 140/12mmHG Condition: Blood pressure is TOO LOW!!!
+Temperature: 39.0Celsius Condition: Temperature is too high
+Heart Beat Rate: 101/minute Condition: Heart Beat rate is too high!!!!]
+
+ArrayList patient6: HealthMonitor:[Blood pressure: 120/90mmHG Condition: Blood pressure is still within range. Congrats!
+Temperature: 37.6Celsius Condition: Temperature is too high
+Heart Beat Rate: 78/minute Condition: Heart Beat rate is okay. Bon!]
+
+
+patient1: HealthMonitor:[Blood pressure: 126/97mmHG Condition: Blood pressure is TOO HIGH!!!!
+Temperature: 82.0Fahrenheit Condition: Temperature is too high
+Heart Beat Rate: 100/minute Condition: !!!On the  High edge!!!]
+
+patient2: HealthMonitor:[Blood pressure: 110/70mmHG Condition: Blood pressure is TOO LOW!!!
+Temperature: 37.0Celsius Condition: Temperature is okay. Keep it up!
+Heart Beat Rate: 70/minute Condition: Heart Beat rate is okay. Bon!]
+
+------------------------------------
+            THANKS                  
+            CHEERS                  
+------------------------------------
+[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]

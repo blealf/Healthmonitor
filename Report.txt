@@ -1,0 +1,33 @@
+p15237108
+HealthMonitor class Report. 
+Please Note: (The source files are in the Assessment folder.)
+HealthMonitor class program checks the blood pressure, temperature and heart beat rate against 
+the standard values to monitor the health of a 'patient'. Patient is however not included in the 
+HealthMonitor class but in the HealthMonitor test class to avoid ambiguity and promote the generic 
+ability of the class.
+All fields use the "private" access modifier because they are not to be accessed directly.
+
+The minimum and maximum values for the Blood pressure, Temperature and Heartbeat, 
+Blood pressure unit and Heart beat units are precluded by the "private static final". 
+The reason for this is that the values are constant i.e., not to be changed throughout the class’ 
+lifespan. Meanwhile the temperature unit have been left without a “static final” because it common 
+to measure temperature as Celsius or Fahrenheit and using only one will limit the ability of the class. 
+The class then contains a method to change to Fahrenheit as it has a default unit of Celsius. 
+
+The HealthMonitor class contains two constructors: the default constructor which initializes 
+the class fields with some default variables when called and a custom constructor that accepts 
+values as parameters used to initialise the variables.
+Each health status tested for have minimum and maximum values. If the value of any is beyond the 
+maximum or minimum or within range, the corresponding alert is set. The method and Constructors 
+have been adequately tested to ensure the workability of the class. The contents of the tests are 
+contained in the “Output.txt” file. The output from the PrintWriter which was also used is named 
+“HealthMonitorOutput.txt”. The test result show that the methods worked adequately.
+
+However, one major limitation of this class is that all values have to be initialized together. 
+That is one value alone cannot be tested. If this happens the default value for the ones not set 
+is zero and it will give an alert for too low. This reason for this however is deliberate, 
+to make not make the class too lenghty. However to improve the ability and readability of my 
+class it would be necessary to split it into four classes.
+
+The “toString()” method is quite lengthy but is not reduced because all the information in it
+ is very important to the output of the class. It contains each value, their units and the alert/alarm.
